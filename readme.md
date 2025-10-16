@@ -3,6 +3,8 @@
 JetBot MazeSolver is a reinforcement learning project that trains a JetBot robot to autonomously navigate and solve mazes inside NVIDIA Isaac Sim.
 It uses a Proximal Policy Optimization (PPO) model to learn optimal movement strategies through trial and error.
 
+*Code coming soon.*
+
 ### Overview
 
 ![Top Down  Maze View](./demos/mazeview.png)
@@ -10,7 +12,13 @@ It uses a Proximal Policy Optimization (PPO) model to learn optimal movement str
 
 This project explores how an agent can learn spatial awareness, wall avoidance, and goal-oriented navigation using simulated sensory inputs. The robot starts without any prior knowledge of the maze and gradually learns how to reach the goal faster and more efficiently.
 
-*Code coming soon.*
+### Rules
+
+1. The robot must reach the center of the maze to complete the objective.
+
+2. The robot cannot touch any walls. A collision instantly resets it to the starting position.
+
+3. Each training episode has a limited time budget. If the robot fails to reach the goal before time runs out, it resets and receives a penalty.
 
 ### Video Demos
 
@@ -34,14 +42,6 @@ Simulates a UWB (Ultra-Wideband) localization setup where the robot continuously
 
 - 360° Lidar Sensor Input
 Provides obstacle detection and spatial awareness to avoid walls and dead ends.
-
-### Rules
-
-1. The robot must reach the center of the maze to complete the objective.
-
-2. The robot cannot touch any walls. A collision instantly resets it to the starting position.
-
-3. Each training episode has a limited time budget. If the robot fails to reach the goal before time runs out, it resets and receives a penalty.
 
 ### Progress
 
