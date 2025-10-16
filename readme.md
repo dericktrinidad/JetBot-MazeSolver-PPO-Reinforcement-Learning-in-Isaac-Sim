@@ -12,11 +12,15 @@ This project explores how an agent can learn spatial awareness, wall avoidance, 
 
 ### Video Demos
 
-##### First Person
-![1p Robot View](./demos/firstpersonview.gif)
+<h5 align="center">First Person</h5>
+<p align="center">
+  <img src="./demos/firstpersonview.gif" alt="1p Robot View" width="640">
+</p>
 
-##### Third Person
-![3p Robot View](./demos/thirdpersonview.gif)
+<h5 align="center">Third Person</h5>
+<p align="center">
+  <img src="./demos/thirdpersonview.gif" alt="3p Robot View" width="640">
+</p>
 
 ### Features
 
