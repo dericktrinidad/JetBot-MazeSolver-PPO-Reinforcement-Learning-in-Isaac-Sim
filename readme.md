@@ -14,7 +14,7 @@ This project explores how an agent can learn spatial awareness, wall avoidance, 
 
 ### Video Demos
 
-<h5 align="center">First person POV</h5>
+<h5 align="center">First Person POV</h5>
 <p align="center">
   <img src="./demos/firstpersonview.gif" alt="1p Robot View" width="640">
 </p>
