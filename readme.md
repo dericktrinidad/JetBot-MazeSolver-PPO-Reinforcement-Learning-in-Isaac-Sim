@@ -29,12 +29,11 @@ This project explores how an agent can learn spatial awareness, wall avoidance, 
 - PPO Reinforcement Model
 Learns from reward feedback to reach the goal while minimizing collisions.
 
-- GPS-Based Position Awareness
-The robot receives continuous distance readings from its current position to the goal.
+- Goal Tracking System
+Simulates a UWB (Ultra-Wideband) localization setup where the robot continuously measures its distance from the goal.
 
 - 360° Lidar Sensor Input
 Provides obstacle detection and spatial awareness to avoid walls and dead ends.
-
 
 ### Rules
 
