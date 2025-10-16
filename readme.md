@@ -10,14 +10,16 @@ It uses a Proximal Policy Optimization (PPO) model to learn optimal movement str
 
 This project explores how an agent can learn spatial awareness, wall avoidance, and goal-oriented navigation using simulated sensory inputs. The robot starts without any prior knowledge of the maze and gradually learns how to reach the goal faster and more efficiently.
 
+*Code coming soon.*
+
 ### Video Demos
 
-<h5 align="center">First Person</h5>
+<h5 align="center">First person POV</h5>
 <p align="center">
   <img src="./demos/firstpersonview.gif" alt="1p Robot View" width="640">
 </p>
 
-<h5 align="center">Third Person</h5>
+<h5 align="center">Third Person POV</h5>
 <p align="center">
   <img src="./demos/thirdpersonview.gif" alt="3p Robot View" width="640">
 </p>
